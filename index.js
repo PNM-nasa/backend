@@ -1,28 +1,6 @@
 
 
 
-/*const {google} = require('googleapis');
-function getAccessToken() {
-  return new Promise(function(resolve, reject) {
-    var key = require('./service-account.json');
-    var jwtClient = new google.auth.JWT(
-      key.client_email,
-      null,
-      key.private_key,
-      SCOPES,
-      null
-    );
-    jwtClient.authorize(function(err, tokens) {
-      if (err) {
-        reject(err);
-        return;
-      }
-      resolve(tokens.access_token);
-    });
-  });
-}*/
-
-
 const http = require('http')
 const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = "mongodb+srv://maingocphong176:lmao@nasa1.gogy0gf.mongodb.net/?retryWrites=true&w=majority";
